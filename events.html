@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="one">Hello Teddy</p>
+    <p id="two">How are you</p>
+    <span id="showData"></span>
+    <input id="username"/>
+    <button onclick="demo()">Submit</button>
+    <script>
+        function demo(){
+        var para=document.getElementById("one").innerHTML
+        console.log(para)
+        var para=document.getElementById("two").innerHTML
+        console.log(para)
+         var user=document.getElementById("username").value
+         console.log(user)
+         document.getElementById("showData").innerHTML="ReactJS"
+    
+        }
+    </script>
+</body>
+</html>
